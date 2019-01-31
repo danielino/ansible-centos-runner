@@ -5,4 +5,4 @@ RUN yum update -y && \
 
 RUN yum install -y python2-pip && \
     pip install --upgrade pip && \
-    pip install ansible
+    pip install ansible==2.7.5
